@@ -4,6 +4,8 @@ This small GitHub Pages site keeps the legacy `tester.207studio.dev` hostname wo
 
 <https://chalkieboard.207studio.dev/beta/>
 
-The custom domain lives in this repository's root `CNAME`. Its DNS record should be a single `CNAME tester -> chalkieboard.github.io`. Do not replace the apex domain's other records or change `chalkieboard.207studio.dev`.
+The custom domain lives in this repository's root `CNAME`. Its DNS record should be a single `CNAME tester -> 207studio.github.io`. Do not replace the apex domain's other records or change `chalkieboard.207studio.dev`.
+
+This repository lives in the `207studio` organization (moved from `chalkieboard/tester-domain-redirect` on 2026-11-26): GitHub Pages only lets repositories owned by the organization that verified `207studio.dev` publish under it.
 
 GitHub Pages serves `index.html` over HTTPS. The page immediately navigates to the canonical guide and includes a link if scripting is disabled. It makes no network calls, loads no external assets, and does not retain query strings or fragments.
